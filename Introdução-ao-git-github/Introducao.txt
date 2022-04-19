@@ -1,0 +1,44 @@
+### Introdução ao Git
+
+**Git** é um software de versionamento de código distribuído. 
+
+**Github** é um repositório online. 
+
+---
+
+### Navegação via command line interface e instalação
+
+Comandos de terminal:
+
+| WINDOWS | UNIX |  |
+| --- | --- | --- |
+| - cd | - cd | mudar de diretório |
+| - dir | - Is | listar |
+| - mkdir | - mkdir | criar diretório |
+| - del / rmdir | - rm -rf | deletar  |
+
+**SHA1** significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA), ou seja algoritmo de encriptação. A encriptação gera conjunto de characteres identificador de 40 dígitos, que são únicos e servem como identificação. 
+
+É uma forma curta de representar um arquivo. 
+
+Exemplo:
+
+![sha1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ceafa89f-a812-46ce-8f84-2a717cab183f/sha1.png)
+
+Objetos interno do Git: 
+
+**Blobs** contem metadados do git
+
+**Trees** armazena blobs, contem também metadados, guarda o nome do arquivo. Responsável por montar a estrutura de onde está os arquivos. Elas também tem o SHA1 dos metadados das arvores. 
+
+Exemplo:
+
+![trees.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6328bed-1f10-40a0-be73-12830864e9a3/trees.png)
+
+**Commits** é o objeto que vai juntar tudo. 
+
+![commit.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0d337ff-8c62-488e-a820-f7c16790384e/commit.png)
+
+**Chave SSH** uma forma de estabelecer uma conexão segura e encriptada entre duas maquinas.
+
+**Git INIT** cria um repositório.
